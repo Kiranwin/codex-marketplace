@@ -1,0 +1,20 @@
+{
+  "name": "blocking-exec-powershell",
+  "interface": {
+    "displayName": "Blocking Exec PowerShell"
+  },
+  "plugins": [
+    {
+      "name": "blocking-exec-powershell",
+      "source": {
+        "source": "local",
+        "path": "./plugins/blocking-exec-powershell"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
