@@ -1,0 +1,13 @@
+{
+  "name": "blocking-exec",
+  "version": "0.1.0",
+  "description": "Runs Bash, PowerShell and exec_command calls synchronously to completion inside a PreToolUse hook, then replays the captured combined output and exit status.",
+  "author": "codex-marketplace",
+  "license": "MIT",
+  "hooks": "./hooks/hooks.json",
+  "interface": {
+    "displayName": "Blocking Exec",
+    "shortDescription": "Run commands to completion and replay their output",
+    "category": "Productivity"
+  }
+}

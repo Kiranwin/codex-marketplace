@@ -17,7 +17,7 @@ import tempfile
 from pathlib import Path
 
 
-LOG_DIR = Path(tempfile.gettempdir()) / "blocking-exec-powershell"
+LOG_DIR = Path(tempfile.gettempdir()) / "blocking-exec"
 SUPPORTED_TOOLS = {"Bash", "PowerShell", "exec_command"}
 
 

@@ -8,7 +8,7 @@
             "type": "command",
             "command": "python \"$PLUGIN_ROOT/hooks/blocking_exec.py\"",
             "timeout": 1200,
-            "statusMessage": "Running command to completion"
+            "statusMessage": "Running command to completion and replaying its output"
           }
         ]
       }

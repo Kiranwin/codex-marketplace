@@ -42,4 +42,4 @@ replay = subprocess.run(
 )
 assert replay.returncode == 13, replay.stderr
 assert replay.stdout.splitlines() == ["start", "finish"]
-print("blocking-exec-powershell hook test: ok")
+print("blocking-exec hook test: ok")
