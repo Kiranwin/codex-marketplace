@@ -1,6 +1,6 @@
-# Blocking Exec PowerShell marketplace
+# Codex marketplace
 
-This repository provides a Codex marketplace and a Windows-aware Blocking Exec plugin.
+This repository provides a Codex marketplace.
 
 The plugin matches `Bash`, `PowerShell`, and `exec_command` PreToolUse events. It executes the original command synchronously in the hook, writes combined output to the system temporary directory, and replaces the command with a replay operation that preserves its final output and exit status.
 
@@ -18,7 +18,7 @@ python .\plugins\blocking-exec-powershell\tests\test_hook.py
 
 ```powershell
 codex plugin marketplace add <repository-path>
-codex plugin add blocking-exec-powershell@blocking-exec-powershell
+codex plugin add blocking-exec@blocking-exec
 ```
 
 Start a new Codex task after installation so the hooks are loaded.
